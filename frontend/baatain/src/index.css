@@ -11,11 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+.App-header{
+  text-align: center;
+  margin: 20px;
+}
+.App-header h1{
+  font-size: 40px;
+  color: blue;
+}
 input{
   font-size: large;
 }
 button{
-  font-size: large;
+  font-size: 15px;
   margin:15px;
+}
+span{
+  font-size: medium;
+  margin:25px;
+  color: red;
+}
+.btn{
+  margin: 10px;
+  padding: 3px;
+  border: 2px solid green;
+  border-radius: 5px;
+  background-color: rgb(2, 45, 2);
 }
