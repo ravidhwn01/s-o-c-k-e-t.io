@@ -1,6 +1,10 @@
 const app= require("express")();
 const server = require("http").createServer(app);
-const io = require('socket.io')(server)
+const io = require('socket.io')(server,{
+    cors: {
+      origin: "*",
+    }
+    })
 
 // socket.emit will send back message to sender only,
 // io.emit will send message to all the client including sender
